@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "Event 1",
+      "date": "2024-01-01",
+      "time": "12:00",
+      "location": "Location 1",
+      "description": "Description 1"
+    },
+    {
+      "id": "2",
+      "name": "Event 2",
+      "date": "2024-01-02",
+      "time": "12:00",
+      "location": "Location 2",
+      "description": "Description 2"
+    },
+    {
+      "id": "3",
+      "name": "Event 3",
+      "date": "2024-01-03",
+      "time": "12:00",
+      "location": "Location 3",
+      "description": "Description 3"
+    }
+  ]
+}
