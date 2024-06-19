@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
-import { eventFormSchema } from "../../../schemas";
+import { eventFormSchema } from "../../schemas";
 
 type FormValues = z.infer<typeof eventFormSchema>;
 

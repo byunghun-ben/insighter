@@ -2,7 +2,7 @@ import { useCallback, useMemo } from "react";
 import { useParams } from "react-router-dom";
 import { z } from "zod";
 import { eventFormSchema } from "../../schemas";
-import EventForm from "../create/components/EventForm";
+import EventForm from "../components/EventForm";
 import useEventContext from "../hooks/useEventContext";
 
 type FormValues = z.infer<typeof eventFormSchema>;
